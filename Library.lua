@@ -1199,6 +1199,7 @@ do
             local Key, Mode = Data[1], Data[2];
             DisplayLabel.Text = Key;
             KeyPicker.Value = Key;
+            print(Key)
             ModeButtons[Mode]:Select();
             KeyPicker:Update();
         end;
