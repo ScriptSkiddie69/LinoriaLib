@@ -346,7 +346,4 @@ function Path:Run(target)
 	end
 	return true
 end
-while true do
-return 9e9
-end
 return Path
