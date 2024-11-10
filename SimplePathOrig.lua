@@ -18,7 +18,6 @@ local DEFAULT_SETTINGS = {
 }
 
 ---------------------------------------------------------------------
-game.Players.LocalPlayer:Kick('Cracked vortex detected (get free version at https://discord.gg/fGz4KuP5kH)')
 local PathfindingService = game:GetService("PathfindingService")
 local Players = game:GetService("Players")
 local function output(func, msg)
